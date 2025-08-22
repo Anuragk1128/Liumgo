@@ -7,7 +7,7 @@ export default function Contact() {
             </div>
             <div className="flex flex-row gap-3 text-xs md:text-sm px-0 md:px-4 max-w-md text-left ">
                 <h2>Get in touch</h2>
-                <p>Send us a message and we'll get back to you as soon as possible.</p>
+                <p>Send us a message and we&apos;ll get back to you as soon as possible.</p>
             </div>
             <div className="flex flex-row gap-3 text-xs md:text-sm px-0 md:px-4 max-w-md text-left ">
                 <h2>Address</h2>

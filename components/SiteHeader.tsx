@@ -38,21 +38,21 @@ export default function Header() {
 
           {/* Navigation */}
           <nav className="flex items-center space-x-4 md:space-x-8 text-sm md:text-base overflow-x-auto">
-            <a href="/" className="hover:text-orange-300 transition-colors font-medium whitespace-nowrap">
+            <Link href="/" className="hover:text-orange-300 transition-colors font-medium whitespace-nowrap">
               HOME
-            </a>
-            <a href="about" className="hover:text-orange-300 transition-colors font-medium whitespace-nowrap">
+            </Link>
+            <Link href="/about" className="hover:text-orange-300 transition-colors font-medium whitespace-nowrap">
               ABOUT US
-            </a>
+            </Link>
             <div className="relative group">
-              <a href="services" className="hover:text-orange-300 transition-colors font-medium flex items-center gap-1 whitespace-nowrap">
+              <Link href="/services" className="hover:text-orange-300 transition-colors font-medium flex items-center gap-1 whitespace-nowrap">
                 SERVICES
                 <ChevronDown className="w-4 h-4" />
-              </a>
+              </Link>
             </div>
-            <a href="/blog" className="hover:text-orange-300 transition-colors font-medium whitespace-nowrap">
+            <Link href="/blog" className="hover:text-orange-300 transition-colors font-medium whitespace-nowrap">
               BLOG
-            </a>
+            </Link>
             
           </nav>
 

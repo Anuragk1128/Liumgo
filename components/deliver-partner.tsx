@@ -24,7 +24,7 @@ type DeliverPartnerProps = {
 
 const defaultPartners: Partner[] = [
   { name: "Tata Ace", logoSrc: "/tataace.avif" },
-  { name: "bajaj", logoSrc: "/Bajaj-Auto-logo.jpg" },
+  { name: "Bajaj", logoSrc: "/Bajaj-Auto-Logo.jpg" },
   { name: "Piaggio Ape", logoSrc: "/piaggio.jpg" },
   { name: "Euler", logoSrc: "/euler.png" },
   { name: "Ashok Leyland", logoSrc: "/ashok.jpg" },
